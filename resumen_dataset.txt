@@ -1,0 +1,35 @@
+RESUMEN DEL DATASET
+============================================================
+Cantidad de filas: 99
+Cantidad de columnas: 5
+
+COLUMNAS Y TIPOS DE DATOS
+------------------------------------------------------------
+- longitud_sepalo: float64
+- petal_length: float64
+- petal_width: float64
+- target: object
+- area_petalo_estimada: float64
+
+VALORES NULOS POR COLUMNA
+------------------------------------------------------------
+- longitud_sepalo: 0
+- petal_length: 0
+- petal_width: 0
+- target: 0
+- area_petalo_estimada: 0
+
+ESTADÍSTICAS DESCRIPTIVAS
+------------------------------------------------------------
+        longitud_sepalo  petal_length  petal_width          target  area_petalo_estimada
+count         99.000000     99.000000    99.000000              99             99.000000
+unique              NaN           NaN          NaN               2                   NaN
+top                 NaN           NaN          NaN  Iris-virginica                   NaN
+freq                NaN           NaN          NaN              50                   NaN
+mean           6.273737      4.925253     1.681818             NaN              8.560909
+std            0.655679      0.806902     0.422906             NaN              3.303769
+min            4.900000      3.300000     1.000000             NaN              3.300000
+25%            5.800000      4.400000     1.300000             NaN              5.680000
+50%            6.300000      4.900000     1.600000             NaN              7.840000
+75%            6.700000      5.550000     2.000000             NaN             11.445000
+max            7.900000      6.900000     2.500000             NaN             15.870000
